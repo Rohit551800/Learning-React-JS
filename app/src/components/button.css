@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    font-size: 62.5%;
+}
+#btn{
+    padding: 3rem 5rem;
+    background-color: transparent;
+    border: 0.3rem solid black;
+    color: black;
+    font-size: 2rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+#btn:hover{
+    transform: translateY(5px);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    border: 2px solid black;
+}
