@@ -2,13 +2,13 @@ import React from 'react';
 
 const Button = ({ btn, onClick, className }) => {
   return (
-    <button
-      onClick={onClick}   // click handler
-      className={`px-5 py-2 rounded ${className}`}
+    <button 
+      onClick={onClick}
+      className={className}
     >
       {btn}
     </button>
   );
-};
+}
 
 export default Button;
